@@ -15,26 +15,5 @@
       <guid>http://localhost:1313/authors/palharesdev/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Jane Doe</title>
-      <link>http://localhost:1313/authors/jane-doe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/jane-doe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>John Doe</title>
-      <link>http://localhost:1313/authors/john-doe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/john-doe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lama Dev</title>
-      <link>http://localhost:1313/authors/lama-dev/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/lama-dev/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
