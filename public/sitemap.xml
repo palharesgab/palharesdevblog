@@ -2,46 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://palharesdev-blog.vercel.app/devx/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+    <loc>https://palharesdev.vercel.app/</loc>
+    <lastmod>2025-05-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://palharesdev-blog.vercel.app/categories/algoritmos/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+    <loc>https://palharesdev.vercel.app/devx/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev-blog.vercel.app/authors/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+    <loc>https://palharesdev.vercel.app/authors/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev-blog.vercel.app/categories/carreira/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+    <loc>https://palharesdev.vercel.app/categories/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev-blog.vercel.app/categories/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+    <loc>https://palharesdev.vercel.app/categories/devops/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev-blog.vercel.app/faculdade-si/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+    <loc>https://palharesdev.vercel.app/categories/engenharia-de-software/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev-blog.vercel.app/pipeline-ideal/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://palharesdev-blog.vercel.app/categories/devops/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://palharesdev-blog.vercel.app/docker/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://palharesdev-blog.vercel.app/categories/engenharia-de-software/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://palharesdev-blog.vercel.app/categories/faculdade/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://palharesdev-blog.vercel.app/grafos/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://palharesdev-blog.vercel.app/authors/palharesdev/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://palharesdev-blog.vercel.app/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+    <loc>https://palharesdev.vercel.app/authors/palharesdev/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url>
 </urlset>

@@ -2,45 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PalharesDev Blog</title>
-    <link>https://palharesdev-blog.vercel.app/categories/</link>
+    <link>https://palharesdev.vercel.app/categories/</link>
     <description>Recent content in Categories on PalharesDev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
-    <atom:link href="https://palharesdev-blog.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Algoritmos</title>
-      <link>https://palharesdev-blog.vercel.app/categories/algoritmos/</link>
-      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://palharesdev-blog.vercel.app/categories/algoritmos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Carreira</title>
-      <link>https://palharesdev-blog.vercel.app/categories/carreira/</link>
-      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://palharesdev-blog.vercel.app/categories/carreira/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://palharesdev.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Devops</title>
-      <link>https://palharesdev-blog.vercel.app/categories/devops/</link>
-      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://palharesdev-blog.vercel.app/categories/devops/</guid>
+      <link>https://palharesdev.vercel.app/categories/devops/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://palharesdev.vercel.app/categories/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Engenharia De Software</title>
-      <link>https://palharesdev-blog.vercel.app/categories/engenharia-de-software/</link>
-      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://palharesdev-blog.vercel.app/categories/engenharia-de-software/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Faculdade</title>
-      <link>https://palharesdev-blog.vercel.app/categories/faculdade/</link>
-      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://palharesdev-blog.vercel.app/categories/faculdade/</guid>
+      <link>https://palharesdev.vercel.app/categories/engenharia-de-software/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://palharesdev.vercel.app/categories/engenharia-de-software/</guid>
       <description></description>
     </item>
   </channel>
