@@ -1,10 +1,10 @@
 +++
 title = 'Afinal, o que é DevX (ou DevEx)?'
-date = 2023-11-22T16:55:24+01:00
+date = 2025-05-21
 draft = false
 description = "Mas e DevX? Você já ouviu falar? E do que se trata?"
-image = "/images/1a.webp"
-imageBig = "/images/1a.webp"
+image = "/images/devx1.webp"
+imageBig = "/images/devx1.webp"
 categories = ["devops", "engenharia de software"]
 authors = ["PalharesDev"]
 avatar = "/images/avatar.webp"
@@ -26,14 +26,38 @@ Como a própria definição diz, é um conceito amplo, mas não significa que n�
 ### Métricas chaves
 Apesar de estabelecido e definido na literatura, não quer dizer que seja um conceito difundido na indústria. Por se tratar de uma abordagem mais recente, as métricas utilizadas para se definir essa experiencia do desenvolvedor é bem diversa na literatura, de forma que cada framework, empresa e implementações pontuais possam ter métricas diferentes e únicas para medir e avaliar a experiência de seus desenvolvedores. A fórmula GitHub, por exemplo, leva em consideração três pilares para avaliar a experiência de seus desenvolvedores: A produtividade, o impacto e a satisfação desses.
 
-![Métricas chaves DevX da empresa github](/images/1b.webp)
+![Métricas chaves DevX da empresa github](/images/devx2.webp)
 
 Já o framework DevEX, citado anteriormente, estabelece três pilares diferentes: Estado de fluxo (Flow State), Ciclo de feedbacks (Feedback Loops) e Carga cognitiva(Cognitive Load).
 
-![Métricas chaves do framework DevEx](/images/1c.webp)
+![Métricas chaves do framework DevEx](/images/devx3.webp)
 
 No caso desse framework, cada um desses pilares pode ser medido individualmente, por percepções humanas (atitudes e opiniões) ou por sistemas e processos próprios, dando exemplo com cada um dos três:
 
 ### Flow State (Estado de fluxo)
 
 Normalmente referido como "flow", Flow state normalmente se refere ao estado mental que um indivíduo está quando ele está completamente imerso na sua atividade (seja ela qual for), e normalmente é um estado que o indivíduo tem uma percepção de esforço menor realizando a tarefa e se sente mais realizado para continuar fazendo seu trabalho. Algumas métricas DevEx para mensurar esse fator:
+
+### Feedback Loops (Ciclo de feedbacks)
+
+Os ciclos de feedback refletem a velocidade e a qualidade das respostas às ações tomadas. Para isso, temos as seguintes métricas:
+
+### Cognitive Load (Carga cognitiva)
+
+A carga cognitiva refere-se normalmente a quantidade de esforço mental exigido de um desenvolvedor para que ele execute uma determinada tarefa. Métricas DevEx para Cognitive Load:
+
+### Como melhorar a experiência do desenvolvedor?
+
+Bom, você não precisa ser um gênio para entender que, para melhorar a experiência do desenvolvedor, dado essas métricas, basta, trabalhar em cima delas, exemplos práticos como adotar políticas para diminuir a complexidade da base de código da empresa, facilitar  a compreensão da documentação (além de sempre incrementar a mesma), diminuir o tempo necessário para que uma alteração seja liberada para a produção, diminuir tempo de resposta para revisões de código, entre muitas outras já citadas anteriormente.
+
+![Desenvolvedor sentado](/images/devx4.webp)
+
+### Por que você deveria se preocupar com isso?
+
+Descrito todo o conceito, as métricas chaves e algumas medidas que podem ser tomadas para impactar a experiência dos desenvolvedores, é muito comum desenvolvedores questionarem: por que saber tudo isso sobre esse assunto? Bom, desenvolvedores de forma geral podem até não ser os responsáveis pela implementação de políticas relacionadas a DevX, ou em saber o que pode influenciar nas métricas analisadas para medir a experiência, e acharem que são apenas um objeto de estudo, mas o ponto é que, as políticas implementadas podem (e em muitos casos devem) fazer uma total diferença em seu dia a dia e no comprimento de suas tarefas.
+DevX é comumente relacionado na literatura com o aumento da produtividade, entre outros benefícios. A difusão dessa cultura voltada para políticas de melhoria na experiência do desenvolvedor no ambiente de trabalho tende a melhorar cada vez mais a vida dos devs, então nada mais justo que ter noção da existência dela.
+
+#### Redes sociais
+X: @palharesdev <br>  
+Youtube: @palharesdev  <br>  
+<!-- Instagram: @palharesdev  <br> --> 
