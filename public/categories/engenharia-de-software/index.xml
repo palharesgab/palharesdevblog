@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engenharia De Software on PalharesDev Blog</title>
+    <link>http://localhost:1313/categories/engenharia-de-software/</link>
+    <description>Recent content in Engenharia De Software on PalharesDev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/engenharia-de-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Afinal, o que é DevX (ou DevEx)?</title>
+      <link>http://localhost:1313/devx/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:1313/devx/</guid>
+      <description>&lt;p&gt;Hoje em dia, dentro do contexto da engenharia de software, é muito falado sobre a cultura DevOps, cultura essa de colaboração da parte de desenvolvimento com a parte de operações e uma série de práticas adotadas a partir dessa colaboração para a entrega e desenvolvimento contínuo. Mas e DevX? Você já ouviu falar? E do que se trata?&lt;/p&gt;&#xA;&lt;p&gt;DevX trata-se de um termo que se refere a &amp;ldquo;Developer experience&amp;rdquo;, ou em uma tradução direta (e óbvia rs) experiencia do desenvolvedor. Essa experiencia, pode ser comumente relacionada a UX (User experience), mas com um escopo limitado, para a área de engenharia de software, o que não é bem verdade, vejamos a seguir melhor ao que se refere essa tal experiencia do desenvolvedor segundo a literatura.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
