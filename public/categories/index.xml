@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PalharesDev Blog</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://palharesdev-blog.vercel.app/categories/</link>
     <description>Recent content in Categories on PalharesDev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://palharesdev-blog.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algoritmos</title>
-      <link>http://localhost:1313/categories/algoritmos/</link>
+      <link>https://palharesdev-blog.vercel.app/categories/algoritmos/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/categories/algoritmos/</guid>
+      <guid>https://palharesdev-blog.vercel.app/categories/algoritmos/</guid>
       <description></description>
     </item>
     <item>
       <title>Carreira</title>
-      <link>http://localhost:1313/categories/carreira/</link>
+      <link>https://palharesdev-blog.vercel.app/categories/carreira/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/categories/carreira/</guid>
+      <guid>https://palharesdev-blog.vercel.app/categories/carreira/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>http://localhost:1313/categories/devops/</link>
+      <link>https://palharesdev-blog.vercel.app/categories/devops/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/categories/devops/</guid>
+      <guid>https://palharesdev-blog.vercel.app/categories/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Engenharia De Software</title>
-      <link>http://localhost:1313/categories/engenharia-de-software/</link>
+      <link>https://palharesdev-blog.vercel.app/categories/engenharia-de-software/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/categories/engenharia-de-software/</guid>
+      <guid>https://palharesdev-blog.vercel.app/categories/engenharia-de-software/</guid>
       <description></description>
     </item>
     <item>
       <title>Faculdade</title>
-      <link>http://localhost:1313/categories/faculdade/</link>
+      <link>https://palharesdev-blog.vercel.app/categories/faculdade/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/categories/faculdade/</guid>
+      <guid>https://palharesdev-blog.vercel.app/categories/faculdade/</guid>
       <description></description>
     </item>
   </channel>

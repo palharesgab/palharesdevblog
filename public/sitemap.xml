@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/devx/</loc>
+    <loc>https://palharesdev-blog.vercel.app/devx/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/algoritmos/</loc>
+    <loc>https://palharesdev-blog.vercel.app/categories/algoritmos/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://palharesdev-blog.vercel.app/authors/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/carreira/</loc>
+    <loc>https://palharesdev-blog.vercel.app/categories/carreira/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://palharesdev-blog.vercel.app/categories/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/faculdade-si/</loc>
+    <loc>https://palharesdev-blog.vercel.app/faculdade-si/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pipeline-ideal/</loc>
+    <loc>https://palharesdev-blog.vercel.app/pipeline-ideal/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/devops/</loc>
+    <loc>https://palharesdev-blog.vercel.app/categories/devops/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docker/</loc>
+    <loc>https://palharesdev-blog.vercel.app/docker/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/engenharia-de-software/</loc>
+    <loc>https://palharesdev-blog.vercel.app/categories/engenharia-de-software/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/faculdade/</loc>
+    <loc>https://palharesdev-blog.vercel.app/categories/faculdade/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/grafos/</loc>
+    <loc>https://palharesdev-blog.vercel.app/grafos/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/palharesdev/</loc>
+    <loc>https://palharesdev-blog.vercel.app/authors/palharesdev/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://palharesdev-blog.vercel.app/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url>
 </urlset>

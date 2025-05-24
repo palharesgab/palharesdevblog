@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on PalharesDev Blog</title>
-    <link>http://localhost:1313/categories/devops/</link>
+    <link>https://palharesdev-blog.vercel.app/categories/devops/</link>
     <description>Recent content in Devops on PalharesDev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://palharesdev-blog.vercel.app/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Afinal, o que é DevX (ou DevEx)?</title>
-      <link>http://localhost:1313/devx/</link>
+      <link>https://palharesdev-blog.vercel.app/devx/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/devx/</guid>
+      <guid>https://palharesdev-blog.vercel.app/devx/</guid>
       <description>&lt;p&gt;Hoje em dia, dentro do contexto da engenharia de software, é muito falado sobre a cultura DevOps, cultura essa de colaboração da parte de desenvolvimento com a parte de operações e uma série de práticas adotadas a partir dessa colaboração para a entrega e desenvolvimento contínuo. Mas e DevX? Você já ouviu falar? E do que se trata?&lt;/p&gt;&#xA;&lt;p&gt;DevX trata-se de um termo que se refere a &amp;ldquo;Developer experience&amp;rdquo;, ou em uma tradução direta (e óbvia rs) experiencia do desenvolvedor. Essa experiencia, pode ser comumente relacionada a UX (User experience), mas com um escopo limitado, para a área de engenharia de software, o que não é bem verdade, vejamos a seguir melhor ao que se refere essa tal experiencia do desenvolvedor segundo a literatura.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Como seria a pipeline ideal?</title>
-      <link>http://localhost:1313/pipeline-ideal/</link>
+      <link>https://palharesdev-blog.vercel.app/pipeline-ideal/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/pipeline-ideal/</guid>
+      <guid>https://palharesdev-blog.vercel.app/pipeline-ideal/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker para leigos</title>
-      <link>http://localhost:1313/docker/</link>
+      <link>https://palharesdev-blog.vercel.app/docker/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/docker/</guid>
+      <guid>https://palharesdev-blog.vercel.app/docker/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;</description>
     </item>
   </channel>
