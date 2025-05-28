@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3236889571481968"
+     crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content=Entendendo&#32;como&#32;o&#32;LinkedIn&#32;pode&#32;ser&#32;o&#32;exemplo&#32;perfeito&#32;para&#32;você&#32;entender&#32;teoria&#32;dos&#32;grafos.>
   <link rel="stylesheet" href="/styles/style.css">
-  <link rel="icon" href="/images/favicon.png" />
+  <link rel="icon" href="/images/icon.png" />
   <title>LinkedIn e teoria dos grafos</title>
 </head>
 <body>
@@ -69,11 +71,11 @@
       <div class="singleHeadDetail">
         <img src=/images/avatar.webp loading="lazy" alt="" class="singleAvatar">
         <span>
-          <a href=http://localhost:1313/authors/palharesdev/>PalharesDev</a>
+          <a href=https://palharesdev.vercel.app/authors/palharesdev/>PalharesDev</a>
           
         </span>
         
-        <a href=http://localhost:1313/categories/algoritmos/ class="singleCategory">algoritmos</a>
+        <a href=https://palharesdev.vercel.app/categories/algoritmos/ class="singleCategory">algoritmos</a>
         
       </div>
       <time>May 22, 2025</time>
@@ -81,12 +83,37 @@
     <img src=/images/grafos1.webp alt=LinkedIn&#32;e&#32;teoria&#32;dos grafos class="singleHeadImg">
   </div>
   <div class="singleBottom">
-    <div class="singleContent"><p>Test Content</p>
+    <div class="singleContent"><h3 id="estrutura-de-um-grafo">Estrutura de um grafo</h3>
+<p>De forma simples, um grafo é uma maneira de representar conexões ou relações entre objetos. Pense nele como um desenho com pontos e linhas, sendo os pontos os vértices, eles representam os objetos individuais que você quer analisar, e as linhas sendo as arestas, que conectam os vértices, elas representam a relação ou conexão entre esses objetos.</p>
+<p>Também podemos dizer que um grafo G é formalmente definido como um par de conjuntos (V,E), onde V é o conjunto de vértices e E é o conjunto de arestas, sendo que cada aresta em E conecta um par de vértices em V (mas talvez soe mais chato).</p>
+<p>A beleza dos grafos está na sua versatilidade. Eles são usados em inúmeras áreas para modelar e resolver problemas complexos, no nosso caso, uma rede de conexões do LinkedIn.</p>
+<p><img src="/images/grafo2a.webp" alt="Grafo simples e nao direcionado"></p>
+<h3 id="grafos-direcionados-e-não-direcionados">Grafos direcionados e não direcionados</h3>
+<p>Antes de entrarmos no assunto LinkedIn em si, é bom entender que existe uma distinção entre os grafos direcionados e não direcionados.</p>
+<p> Em um grafo não direcionado, as arestas representam uma relação mútua ou simétrica entre os vértices. Pense nas conexões no LinkedIn, quando você está conectado a alguém, essa pessoa também está conectada a você, ou seja, uma relação mútua. Em um grafo, se existe uma aresta conectando o vértice A ao vértice B, isso implica automaticamente que existe a mesma conexão do vértice B para o vértice A. A ordem dos vértices na definição da aresta não importa.</p>
+<p>Em um grafo direcionado (também chamado de dígrafo), as arestas têm uma direção específica, pense em uma rede social em que você pode seguir alguém, mas aquela pessoa pode não necessariamente te seguir de volta, ou seja, a conexão possui uma direção. Uma aresta do vértice A para o vértice B não implica necessariamente que exista uma aresta do vértice B para o vértice A. A ordem dos vértices na definição da aresta é crucial.</p>
+<p>No exemplo abaixo temos dois grafos, o não direcionado (Grafo A) e o direcionado (Grafo B).</p>
+<p><img src="/images/grafos3.webp" alt="Grafo direcionado e nao direcionado"></p>
+<h3 id="recomendação-deconexões">Recomendação de Conexões</h3>
+<p>O LinkedIn constrói uma vasta rede social profissional modelada como um grafo. Cada usuário é um vértice (os pontos &ldquo;.&rdquo;) e as conexões são as arestas (os traços &ldquo;-&rdquo;). Essa estrutura de grafo permite diversas funcionalidades.</p>
+<p>Algoritmos analisam o grafo para sugerir pessoas que você talvez conheça com base em suas conexões de segundo e terceiro grau, simplificando, o algoritmo analisa seu perfil como um vértice e suas conexões como seus vizinhos, e para as recomendações de conexões ele sugere os vizinhos de seus vizinhos, e, quanto mais vértices vizinhos seus tiverem mais um vizinho em específico que você não possua em comum, maior é a chance desse perfil ser recomendado para você, além de outros fatores como interesses e histórico profissional.</p>
+<p><img src="/images/grafos2.webp" alt="Explicação das conexões no linkedin utilizando grafos"></p>
+<h3 id="busca-deempregos">Busca de Empregos</h3>
+<p>Os grafos também ajudam a conectar candidatos a vagas com base em suas habilidades e nas conexões que podem facilitar essa ligação. A rede de conexões permite encontrar pessoas com habilidades específicas dentro da sua rede ou em redes mais amplas.</p>
+<p>Quando adicionamos competências ao nosso perfil, também ampliamos o número de vagas ofertadas, pois a rede de vértices vizinhos dessa vez são vagas com essas competências em comum, então lembre-se, nunca é demais adicionar cada competência sua em seu perfil (mas nada de inventar competências!).</p>
+<h3 id="por-dentro-do-linkedin">Por dentro do Linkedin</h3>
+<p>O algoritmo da rede também ajuda os recrutadores, ofertando os candidatos com a principais palavras-chave e competências que as suas vagas fornecem, facilitando muito o trabalho para não exigir aquela leitura de vários perfis e currículos.</p>
+<p>O blog de engenharia do LinkedIn (engineering.linkedin.com) publicou um artigo sobre os desafios técnicos e as soluções implementadas, infelizmente apenas em inglês e sem detalhar algoritmos específicos, mas ainda, sim, mencionam o uso de grafos para modelar a rede e realizar análises.</p>
+<p><img src="/images/grafos6.webp" alt="Artigo Linkedin"></p>
+<p>Não deixe de me seguir no LinkedIn. <!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h4 id="redes-sociais">Redes sociais</h4>
+<p>X: <a href="https://x.com/palharesdev">@palharesgab</a><!-- raw HTML omitted --><br>
+Youtube: <a href="https://www.youtube.com/@PalharesDev">@palharesgab</a><!-- raw HTML omitted --><br>
+LinkedIn: <a href="https://www.linkedin.com/in/gabriel-pizzani-palhares/">Gabriel Palhares</a><!-- raw HTML omitted --></p>
 </div>
     <div class="singleRightBar">
       <div class="rightBar">
-  <img src="/images/ads.webp" alt="ad" class="rightBarImg">
-  <img src="/images/adh.webp" alt="ad" class="rightBarImgHr">
+
 </div>
     </div>
   </div>

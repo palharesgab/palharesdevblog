@@ -6,8 +6,15 @@
     <description>Recent content in PalharesDev on PalharesDev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 May 2025 16:55:24 +0100</lastBuildDate>
     <atom:link href="https://palharesdev.vercel.app/authors/palharesdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LinkedIn e teoria dos grafos</title>
+      <link>https://palharesdev.vercel.app/grafos/</link>
+      <pubDate>Thu, 22 May 2025 16:55:24 +0100</pubDate>
+      <guid>https://palharesdev.vercel.app/grafos/</guid>
+      <description>&lt;h3 id=&#34;estrutura-de-um-grafo&#34;&gt;Estrutura de um grafo&lt;/h3&gt;&#xA;&lt;p&gt;De forma simples, um grafo é uma maneira de representar conexões ou relações entre objetos. Pense nele como um desenho com pontos e linhas, sendo os pontos os vértices, eles representam os objetos individuais que você quer analisar, e as linhas sendo as arestas, que conectam os vértices, elas representam a relação ou conexão entre esses objetos.&lt;/p&gt;&#xA;&lt;p&gt;Também podemos dizer que um grafo G é formalmente definido como um par de conjuntos (V,E), onde V é o conjunto de vértices e E é o conjunto de arestas, sendo que cada aresta em E conecta um par de vértices em V (mas talvez soe mais chato).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Afinal, o que é DevX (ou DevEx)?</title>
       <link>https://palharesdev.vercel.app/devx/</link>
