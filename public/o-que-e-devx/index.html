@@ -89,8 +89,9 @@
 <p>DevX trata-se de um termo que se refere a &ldquo;Developer experience&rdquo;, ou em uma tradução direta (e óbvia rs) experiencia do desenvolvedor. Essa experiencia, pode ser comumente relacionada a UX (User experience), mas com um escopo limitado, para a área de engenharia de software, o que não é bem verdade, vejamos a seguir melhor ao que se refere essa tal experiencia do desenvolvedor segundo a literatura.</p>
 <h3 id="definição-da-experiência-do-desenvolvedor">Definição da experiência do desenvolvedor</h3>
 <p>Existem várias definições para a experiência do desenvolvedor, mas de forma geral, e a mais utilizada na literatura é:</p>
-<p>A broader concept that captures how developers feel about, think about and value their work (Fagerholm and Munch, 2012)</p>
-<p>Em uma tradução livre: &ldquo;Um conceito mais amplo que captura como os desenvolvedores se sentem, pensam e valorizam seu trabalho&rdquo;.</p>
+<blockquote>
+<p><strong>A broader concept that captures how developers feel about, think about and value their work</strong>. (Fagerholm and Munch, 2012)</p></blockquote>
+<p>Em uma tradução livre: &ldquo;<strong>Um conceito mais amplo que captura como os desenvolvedores se sentem, pensam e valorizam seu trabalho</strong>&rdquo;</p>
 <p>Como a própria definição diz, é um conceito amplo, mas não significa que não possa ser mensurado, é o que faz, por exemplo, o framework DevEX (termo utilizado comumente no lugar de DevX), através de métricas próprias, e muito bem estabelecidas.</p>
 <h3 id="métricas-chaves">Métricas chaves</h3>
 <p>Apesar de estabelecido e definido na literatura, não quer dizer que seja um conceito difundido na indústria. Por se tratar de uma abordagem mais recente, as métricas utilizadas para se definir essa experiencia do desenvolvedor é bem diversa na literatura, de forma que cada framework, empresa e implementações pontuais possam ter métricas diferentes e únicas para medir e avaliar a experiência de seus desenvolvedores. A fórmula GitHub, por exemplo, leva em consideração três pilares para avaliar a experiência de seus desenvolvedores: A produtividade, o impacto e a satisfação desses.</p>
@@ -100,16 +101,40 @@
 <p>No caso desse framework, cada um desses pilares pode ser medido individualmente, por percepções humanas (atitudes e opiniões) ou por sistemas e processos próprios, dando exemplo com cada um dos três:</p>
 <h3 id="flow-state-estado-defluxo">Flow State (Estado de fluxo)</h3>
 <p>Normalmente referido como &ldquo;flow&rdquo;, Flow state normalmente se refere ao estado mental que um indivíduo está quando ele está completamente imerso na sua atividade (seja ela qual for), e normalmente é um estado que o indivíduo tem uma percepção de esforço menor realizando a tarefa e se sente mais realizado para continuar fazendo seu trabalho. Algumas métricas DevEx para mensurar esse fator:</p>
+<ul>
+<li>Capacidade autopercebida de se concentrar e evitar interrupções</li>
+<li>Satisfação com a clareza das metas da tarefa ou do projeto</li>
+<li>Percepção de rompimento ao estar em uma call (com alguém do time normalmente).</li>
+<li>Número de blocos de tempo (ou blocos de trabalho) sem reuniões ou interrupções.</li>
+<li>Frequência de tarefas ou solicitações não planejadas</li>
+<li>Frequência de incidentes que exigem interrupções das tarefas atuais e atenção da equipe</li>
+</ul>
 <h3 id="feedback-loops-ciclo-de-feedbacks">Feedback Loops (Ciclo de feedbacks)</h3>
 <p>Os ciclos de feedback refletem a velocidade e a qualidade das respostas às ações tomadas. Para isso, temos as seguintes métricas:</p>
+<ul>
+<li>Satisfação com a velocidade e o resultado dos testes automatizados</li>
+<li>Satisfação com o tempo necessário para validar uma alteração local</li>
+<li>Satisfação com o tempo necessário para implementar uma alteração na produção</li>
+<li>Tempo necessário para gerar resultados de CI</li>
+<li>Tempo de resposta da revisão de código</li>
+<li>Tempo de implantação (tempo necessário para que uma alteração seja liberada para a produção)</li>
+</ul>
 <h3 id="cognitive-load-carga-cognitiva">Cognitive Load (Carga cognitiva)</h3>
 <p>A carga cognitiva refere-se normalmente a quantidade de esforço mental exigido de um desenvolvedor para que ele execute uma determinada tarefa. Métricas DevEx para Cognitive Load:</p>
+<ul>
+<li>Complexidade da base de código</li>
+<li>Facilidade no &ldquo;debbuging&rdquo; dos sistemas de produção </li>
+<li>Facilidade de compreensão da documentação</li>
+<li>Tempo necessário para obter respostas a perguntas técnicas</li>
+<li>Etapas manuais necessárias para implementar uma alteração desenvolvida</li>
+<li>Frequência de melhorias na documentação</li>
+</ul>
 <h3 id="como-melhorar-a-experiência-do-desenvolvedor">Como melhorar a experiência do desenvolvedor?</h3>
 <p>Bom, você não precisa ser um gênio para entender que, para melhorar a experiência do desenvolvedor, dado essas métricas, basta, trabalhar em cima delas, exemplos práticos como adotar políticas para diminuir a complexidade da base de código da empresa, facilitar  a compreensão da documentação (além de sempre incrementar a mesma), diminuir o tempo necessário para que uma alteração seja liberada para a produção, diminuir tempo de resposta para revisões de código, entre muitas outras já citadas anteriormente.</p>
 <p><img src="/images/devx4.webp" alt="Desenvolvedor sentado"></p>
 <h3 id="por-que-você-deveria-se-preocupar-comisso">Por que você deveria se preocupar com isso?</h3>
-<p>Descrito todo o conceito, as métricas chaves e algumas medidas que podem ser tomadas para impactar a experiência dos desenvolvedores, é muito comum desenvolvedores questionarem: por que saber tudo isso sobre esse assunto? Bom, desenvolvedores de forma geral podem até não ser os responsáveis pela implementação de políticas relacionadas a DevX, ou em saber o que pode influenciar nas métricas analisadas para medir a experiência, e acharem que são apenas um objeto de estudo, mas o ponto é que, as políticas implementadas podem (e em muitos casos devem) fazer uma total diferença em seu dia a dia e no comprimento de suas tarefas.
-DevX é comumente relacionado na literatura com o aumento da produtividade, entre outros benefícios. A difusão dessa cultura voltada para políticas de melhoria na experiência do desenvolvedor no ambiente de trabalho tende a melhorar cada vez mais a vida dos devs, então nada mais justo que ter noção da existência dela.</p>
+<p>Descrito todo o conceito, as métricas chaves e algumas medidas que podem ser tomadas para impactar a experiência dos desenvolvedores, é muito comum desenvolvedores questionarem: por que saber tudo isso sobre esse assunto? Bom, desenvolvedores de forma geral podem até não ser os responsáveis pela implementação de políticas relacionadas a DevX, ou em saber o que pode influenciar nas métricas analisadas para medir a experiência, e acharem que são apenas um objeto de estudo, mas o ponto é que, as políticas implementadas podem (e em muitos casos devem) fazer uma total diferença em seu dia a dia e no comprimento de suas tarefas.</p>
+<p>DevX é comumente relacionado na literatura com o aumento da produtividade, entre outros benefícios. A difusão dessa cultura voltada para políticas de melhoria na experiência do desenvolvedor no ambiente de trabalho tende a melhorar cada vez mais a vida dos devs, então nada mais justo que ter noção da existência dela.</p>
 <h4 id="redes-sociais">Redes sociais</h4>
 <p>X: <a href="https://x.com/palharesdev">@palharesgab</a><!-- raw HTML omitted --><br>
 Youtube: <a href="https://www.youtube.com/@PalharesDev">@palharesgab</a><!-- raw HTML omitted --><br>
