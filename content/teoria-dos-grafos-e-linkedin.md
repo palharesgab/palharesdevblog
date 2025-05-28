@@ -1,6 +1,6 @@
 +++
 title = 'LinkedIn e teoria dos grafos'
-date = 2025-05-22T16:55:24+01:00
+date = 2025-05-28
 draft = false
 description = "Entendendo como o LinkedIn pode ser o exemplo perfeito para você entender teoria dos grafos."
 image = "/images/grafos1.webp"

@@ -1,6 +1,6 @@
 +++
 title = 'Afinal, o que é DevX (ou DevEx)?'
-date = 2025-05-21
+date = 2025-05-10
 draft = false
 description = "Mas e DevX? Você já ouviu falar? E do que se trata?"
 image = "/images/devx1.webp"
