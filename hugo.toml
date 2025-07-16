@@ -1,6 +1,6 @@
-baseURL = 'https://palharesdev.vercel.app/'
+baseURL = 'https://palhares.dev/'
 languageCode = 'en-us'
-title = 'PalharesDev Blog'
+title = 'PalharesDev'
 
 [params]
   description = "Blog pessoal"
