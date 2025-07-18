@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PalharesDev Blog</title>
-    <link>https://palharesdev.vercel.app/</link>
-    <description>Recent content on PalharesDev Blog</description>
+    <title>PalharesDev</title>
+    <link>https://palhares.dev/</link>
+    <description>Recent content on PalharesDev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://palharesdev.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://palhares.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LinkedIn e teoria dos grafos</title>
-      <link>https://palharesdev.vercel.app/teoria-dos-grafos-e-linkedin/</link>
-      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://palharesdev.vercel.app/teoria-dos-grafos-e-linkedin/</guid>
+      <link>https://palhares.dev/teoria-dos-grafos-e-linkedin/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://palhares.dev/teoria-dos-grafos-e-linkedin/</guid>
       <description>&lt;h3 id=&#34;estrutura-de-um-grafo&#34;&gt;Estrutura de um grafo&lt;/h3&gt;&#xA;&lt;p&gt;De forma simples, um grafo é uma maneira de representar conexões ou relações entre objetos. Pense nele como um desenho com pontos e linhas, sendo os pontos os vértices, eles representam os objetos individuais que você quer analisar, e as linhas sendo as arestas, que conectam os vértices, elas representam a relação ou conexão entre esses objetos.&lt;/p&gt;&#xA;&lt;p&gt;Também podemos dizer que um grafo G é formalmente definido como um par de conjuntos (V,E), onde V é o conjunto de vértices e E é o conjunto de arestas, sendo que cada aresta em E conecta um par de vértices em V (mas talvez soe mais chato).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Afinal, o que é DevX (ou DevEx)?</title>
-      <link>https://palharesdev.vercel.app/o-que-e-devx/</link>
+      <link>https://palhares.dev/o-que-e-devx/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://palharesdev.vercel.app/o-que-e-devx/</guid>
+      <guid>https://palhares.dev/o-que-e-devx/</guid>
       <description>&lt;p&gt;Hoje em dia, dentro do contexto da engenharia de software, é muito falado sobre a cultura DevOps, cultura essa de colaboração da parte de desenvolvimento com a parte de operações e uma série de práticas adotadas a partir dessa colaboração para a entrega e desenvolvimento contínuo. Mas e DevX? Você já ouviu falar? E do que se trata?&lt;/p&gt;&#xA;&lt;p&gt;DevX trata-se de um termo que se refere a &amp;ldquo;Developer experience&amp;rdquo;, ou em uma tradução direta (e óbvia rs) experiencia do desenvolvedor. Essa experiencia, pode ser comumente relacionada a UX (User experience), mas com um escopo limitado, para a área de engenharia de software, o que não é bem verdade, vejamos a seguir melhor ao que se refere essa tal experiencia do desenvolvedor segundo a literatura.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Docker para leigos</title>
+      <link>https://palhares.dev/docker/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>https://palhares.dev/docker/</guid>
+      <description>&lt;h3 id=&#34;o-que-é-um-contêiner&#34;&gt;O que é um Contêiner?&lt;/h3&gt;&#xA;&lt;p&gt;Pense em um contêiner como uma caixinha mágica e padronizada onde você pode colocar um programa (uma aplicação) e tudo o que ele precisa para funcionar, como bibliotecas, dependências, arquivos de configuração e até mesmo uma versão mínima do sistema operacional.&lt;/p&gt;&#xA;&lt;p&gt;A grande sacada é que essa caixinha é isolada do resto do seu computador. Isso significa que, não importa onde você execute esse contêiner (no seu laptop, no servidor da empresa, na nuvem), a aplicação dentro dele sempre vai se comportar da mesma forma.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

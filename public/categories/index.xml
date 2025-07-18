@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on PalharesDev Blog</title>
-    <link>https://palharesdev.vercel.app/categories/</link>
-    <description>Recent content in Categories on PalharesDev Blog</description>
+    <title>Categories on PalharesDev</title>
+    <link>https://palhares.dev/categories/</link>
+    <description>Recent content in Categories on PalharesDev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://palharesdev.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://palhares.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algoritmos</title>
-      <link>https://palharesdev.vercel.app/categories/algoritmos/</link>
-      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://palharesdev.vercel.app/categories/algoritmos/</guid>
+      <link>https://palhares.dev/categories/algoritmos/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://palhares.dev/categories/algoritmos/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://palharesdev.vercel.app/categories/devops/</link>
+      <link>https://palhares.dev/categories/devops/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://palharesdev.vercel.app/categories/devops/</guid>
+      <guid>https://palhares.dev/categories/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Engenharia De Software</title>
-      <link>https://palharesdev.vercel.app/categories/engenharia-de-software/</link>
+      <link>https://palhares.dev/categories/engenharia-de-software/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://palharesdev.vercel.app/categories/engenharia-de-software/</guid>
+      <guid>https://palhares.dev/categories/engenharia-de-software/</guid>
       <description></description>
     </item>
   </channel>

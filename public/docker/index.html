@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3236889571481968"
+     crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=This&#32;is&#32;a&#32;description>
+  <meta name="description" content=Se&#32;você&#32;está&#32;começando&#32;ou&#32;se&#32;aprofundando&#32;como&#32;desenvolvedor&#32;e&#32;ouve&#32;falar&#32;de&#32;Docker&#32;e&#32;contêineres,&#32;é&#32;normal&#32;que&#32;pareça&#32;algo&#32;complexo&#32;à&#32;primeira&#32;vista.&#32;Mas&#32;não&#32;se&#32;preocupe!&#32;Vou&#32;te&#32;explicar&#32;de&#32;forma&#32;simples&#32;o&#32;que&#32;você&#32;precisa&#32;saber&#32;como&#32;iniciante.>
   <link rel="stylesheet" href="/styles/style.css">
-  <link rel="icon" href="/images/favicon.png" />
+  <link rel="icon" href="/images/icon.png" />
   <title>Docker para leigos</title>
 </head>
 <body>
   <div class="container">
     <nav class="navbar">
   <div class="logo">
-    <a href="/">PalharesDev Blog</a>
+    <a href="/">PalharesDev</a>
   </div>
   <div class="links">
     <div class="toggle">
@@ -65,28 +67,65 @@
   <div class="singleHead">
     <div class="singleHeadTexts">
       <h1 class="singleHeadTitle">Docker para leigos</h1>
-      <p class="singleHeadDesc">This is a description</p>
+      <p class="singleHeadDesc">Se você está começando ou se aprofundando como desenvolvedor e ouve falar de Docker e contêineres, é normal que pareça algo complexo à primeira vista. Mas não se preocupe! Vou te explicar de forma simples o que você precisa saber como iniciante.</p>
       <div class="singleHeadDetail">
         <img src=/images/avatar.webp loading="lazy" alt="" class="singleAvatar">
         <span>
-          <a href=http://localhost:1313/authors/palharesdev/>PalharesDev</a>
+          <a href=https://palhares.dev/authors/palharesdev/>PalharesDev</a>
           
         </span>
         
-        <a href=http://localhost:1313/categories/devops/ class="singleCategory">devops</a>
+        <a href=https://palhares.dev/categories/devops/ class="singleCategory">devops</a>
         
       </div>
       <time>Nov 22, 2023</time>
     </div>
-    <img src=/images/3a.webp alt=Docker&#32;para&#32;leigos class="singleHeadImg">
+    <img src=/images/docker1.webp alt=Docker&#32;para&#32;leigos class="singleHeadImg">
   </div>
   <div class="singleBottom">
-    <div class="singleContent"><p>Test Content</p>
+    <div class="singleContent"><h3 id="o-que-é-um-contêiner">O que é um Contêiner?</h3>
+<p>Pense em um contêiner como uma caixinha mágica e padronizada onde você pode colocar um programa (uma aplicação) e tudo o que ele precisa para funcionar, como bibliotecas, dependências, arquivos de configuração e até mesmo uma versão mínima do sistema operacional.</p>
+<p>A grande sacada é que essa caixinha é isolada do resto do seu computador. Isso significa que, não importa onde você execute esse contêiner (no seu laptop, no servidor da empresa, na nuvem), a aplicação dentro dele sempre vai se comportar da mesma forma.</p>
+<p>Imagine a seguinte situação: Você desenvolve um aplicativo no seu computador, ele funciona perfeitamente. Mas quando você tenta rodá-lo no computador de um amigo, ele não funciona! Isso acontece porque faltam algumas coisas no computador do seu amigo ou as versões das bibliotecas são diferentes.</p>
+<p>Com um contêiner, você empacota seu aplicativo e todas as suas dependências nessa caixinha. Quando você compartilha a caixinha com seu amigo, ele só precisa &ldquo;abrir&rdquo; a caixinha e seu aplicativo vai funcionar, sem se preocupar com as configurações do sistema dele.</p>
+<h3 id="contêineres-vs-máquinas-virtuais-vms">Contêineres vs. Máquinas Virtuais (VMs)</h3>
+<p>É comum confundir contêineres com máquinas virtuais. Embora ambos forneçam ambientes isolados, há diferenças cruciais. Máquinas Virtuais (VMs) são como computadores completos dentro do seu computador(virtualizados). Cada VM tem seu próprio sistema operacional (SO) convidado, kernel, bibliotecas e aplicações. São mais pesadas e demoram mais para iniciar. Por outro lado, contêineres compartilham o kernel do sistema operacional do host. Eles apenas empacotam o aplicativo e suas dependências, sendo muito mais leves e rápidos para iniciar.</p>
+<h3 id="e-o-que-é-docker">E o que é Docker?</h3>
+<p>Docker é a ferramenta mais popular para criar, executar e gerenciar esses contêineres. Pense nele como a plataforma que constrói e opera essas caixinhas mágicas.</p>
+<p>É o Docker que permite que você:</p>
+<h4 id="crie-suas-próprias-imagens-de-contêiner">Crie suas próprias imagens de contêiner</h4>
+<p>Uma imagem é como um &ldquo;molde&rdquo; ou &ldquo;planta&rdquo; para um contêiner. É a partir de uma imagem que você gera um contêiner.</p>
+<h4 id="execute-contêineres">Execute contêineres:</h4>
+<p>Transforme suas imagens em contêineres em funcionamento.</p>
+<h4 id="gerencie-contêineres">Gerencie contêineres:</h4>
+<p>Pare, inicie, remova e monitore seus contêineres.</p>
+<h4 id="compartilhe-contêineres">Compartilhe contêineres</h4>
+<p>Publique suas imagens em um repositório (como o Docker Hub) para que outras pessoas possam usá-las.</p>
+<h3 id="por-que-contêineres-e-docker-são-tão-importantes">Por que Contêineres e Docker são tão Importantes?</h3>
+<p>A contêinerização e o Docker trouxeram uma revolução para o desenvolvimento e operação de software por diversos motivos:</p>
+<p>Consistência (&ldquo;Funciona na minha máquina&rdquo;): Acabou o problema do &ldquo;funciona na minha máquina, mas não na sua&rdquo;. Com os contêineres, o ambiente de execução é sempre o mesmo, desde o desenvolvimento até a produção.</p>
+<p>Isolamento: Cada contêiner é isolado, o que significa que um problema em um contêiner não afeta os outros. Além disso, as dependências de uma aplicação não entram em conflito com as de outra.</p>
+<p>Portabilidade: Um contêiner criado no seu laptop pode ser executado em qualquer ambiente que tenha o Docker instalado, seja um servidor local, uma máquina virtual ou um serviço de nuvem.</p>
+<p>Eficiência de Recursos: Contêineres são leves e usam menos recursos do que máquinas virtuais tradicionais. Eles compartilham o kernel do sistema operacional host, o que os torna mais rápidos para iniciar e mais eficientes.</p>
+<p>Escalabilidade: É muito mais fácil escalar aplicações contêinerizadas. Se sua aplicação precisa lidar com mais tráfego, você pode simplesmente iniciar mais instâncias do contêiner.</p>
+<p>Ciclo de Desenvolvimento Rápido: Com os contêineres, os desenvolvedores podem criar ambientes de desenvolvimento rapidamente, testar novas funcionalidades e implantar com mais agilidade.</p>
+<h3 id="conceitos-essenciais">Conceitos Essenciais</h3>
+<h4 id="imagem-image">Imagem (Image)</h4>
+<p>É o &ldquo;molde&rdquo; ou &ldquo;planta&rdquo; de um contêiner. É um arquivo estático e imutável que contém o código da aplicação, bibliotecas, dependências e configurações. Você pode pensar nela como uma receita para criar um bolo.</p>
+<h4 id="contêiner-container">Contêiner (Container)</h4>
+<p>É uma instância em execução de uma imagem. É o &ldquo;bolo&rdquo; feito a partir da receita (imagem). Você pode ter vários contêineres rodando a partir da mesma imagem.</p>
+<h4 id="dockerfile">Dockerfile</h4>
+<p>É um arquivo de texto que contém uma série de instruções para construir uma imagem Docker. É como escrever a sua própria receita de bolo passo a passo.</p>
+<h4 id="docker-hub">Docker Hub</h4>
+<p>É um registro público (e privado) onde você pode armazenar e compartilhar imagens Docker. É como um &ldquo;repositório&rdquo; de receitas de bolos prontas para usar.</p>
+<h4 id="porta">Porta</h4>
+<p>Contêineres rodam isolados, então para que uma aplicação dentro de um contêiner possa ser acessada de fora (pelo seu navegador, por exemplo), você precisa &ldquo;mapear&rdquo; uma porta do contêiner para uma porta da sua máquina.</p>
+<h3 id="começando-com-docker">Começando com Docker</h3>
+<h3 id="o-proximo-passo-com-kubernetes">O proximo passo com Kubernetes</h3>
 </div>
     <div class="singleRightBar">
       <div class="rightBar">
-  <img src="/images/ads.webp" alt="ad" class="rightBarImg">
-  <img src="/images/adh.webp" alt="ad" class="rightBarImgHr">
+
 </div>
     </div>
   </div>
@@ -138,39 +177,6 @@
       </svg>
     </a>
     
-    <a href="https://twitter.com/palharesdev" aria-label="Twitter">
-      <svg
-        width="20"
-        zoomAndPan="magnify"
-        viewBox="0 0 30 30.000001"
-        height="20"
-        preserveAspectRatio="xMidYMid meet"
-        version="1.0"
-      >
-        <defs>
-          <clipPath id="d942bdcecf">
-            <path
-              d="M 0.484375 0 L 29.515625 0 L 29.515625 29.03125 L 0.484375 29.03125 Z M 0.484375 0 "
-              clip-rule="nonzero"
-            />
-          </clipPath>
-        </defs>
-        <g clip-path="url(#d942bdcecf)">
-          <path
-            fill="#1d9bf0"
-            d="M 25.886719 29.03125 L 4.113281 29.03125 C 2.109375 29.03125 0.484375 27.40625 0.484375 25.402344 L 0.484375 3.628906 C 0.484375 1.625 2.109375 0 4.113281 0 L 25.886719 0 C 27.890625 0 29.515625 1.625 29.515625 3.628906 L 29.515625 25.402344 C 29.515625 27.40625 27.890625 29.03125 25.886719 29.03125 Z M 25.886719 29.03125 "
-            fill-opacity="1"
-            fill-rule="nonzero"
-          />
-        </g>
-        <path
-          fill="#ffffff"
-          d="M 11.632812 21.890625 C 18.476562 21.890625 22.222656 16.214844 22.222656 11.300781 C 22.222656 11.140625 22.222656 10.980469 22.214844 10.820312 C 22.941406 10.300781 23.570312 9.640625 24.074219 8.890625 C 23.40625 9.1875 22.6875 9.382812 21.929688 9.480469 C 22.699219 9.023438 23.289062 8.289062 23.570312 7.417969 C 22.851562 7.847656 22.054688 8.152344 21.207031 8.316406 C 20.523438 7.59375 19.558594 7.140625 18.492188 7.140625 C 16.4375 7.140625 14.769531 8.8125 14.769531 10.867188 C 14.769531 11.15625 14.804688 11.4375 14.863281 11.714844 C 11.769531 11.5625 9.027344 10.074219 7.191406 7.824219 C 6.871094 8.375 6.691406 9.015625 6.691406 9.695312 C 6.691406 10.988281 7.351562 12.128906 8.34375 12.796875 C 7.734375 12.773438 7.160156 12.605469 6.660156 12.332031 C 6.660156 12.347656 6.660156 12.359375 6.660156 12.382812 C 6.660156 14.183594 7.945312 15.691406 9.644531 16.03125 C 9.332031 16.121094 9.003906 16.164062 8.664062 16.164062 C 8.425781 16.164062 8.191406 16.140625 7.96875 16.097656 C 8.4375 17.578125 9.816406 18.652344 11.445312 18.683594 C 10.167969 19.683594 8.5625 20.277344 6.820312 20.277344 C 6.523438 20.277344 6.226562 20.265625 5.933594 20.226562 C 7.574219 21.273438 9.535156 21.890625 11.632812 21.890625 "
-          fill-opacity="1"
-          fill-rule="nonzero"
-        />
-      </svg>
-    </a>
     
   </div>
 </div>

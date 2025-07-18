@@ -1,6 +1,6 @@
 +++
 title = 'LinkedIn e teoria dos grafos'
-date = 2025-05-28
+date = 2025-06-28
 draft = false
 description = "Entendendo como o LinkedIn pode ser o exemplo perfeito para você entender teoria dos grafos."
 image = "/images/grafos1.webp"
@@ -52,8 +52,8 @@ O blog de engenharia do LinkedIn (engineering.linkedin.com) publicou um artigo s
 Não deixe de me seguir no LinkedIn. <a></a>
 
 #### Redes sociais
-X: [@palharesgab](https://x.com/palharesdev)<br>  
-Youtube: [@palharesgab](https://www.youtube.com/@PalharesDev)<br>  
+X: [@palharesdev](https://x.com/palharesdev)<br>  
+Youtube: [@PalharesDev](https://www.youtube.com/@PalharesDev)<br>  
 LinkedIn: [Gabriel Palhares](https://www.linkedin.com/in/gabriel-pizzani-palhares/)<br>  
 <!-- Instagram: [@palharesdev](https://www.instagram.com/palharesdev/)<br>     -->
 

@@ -81,7 +81,7 @@ Descrito todo o conceito, as métricas chaves e algumas medidas que podem ser to
 DevX é comumente relacionado na literatura com o aumento da produtividade, entre outros benefícios. A difusão dessa cultura voltada para políticas de melhoria na experiência do desenvolvedor no ambiente de trabalho tende a melhorar cada vez mais a vida dos devs, então nada mais justo que ter noção da existência dela.
 
 #### Redes sociais
-X: [@palharesgab](https://x.com/palharesdev)<br>  
-Youtube: [@palharesgab](https://www.youtube.com/@PalharesDev)<br>  
+X: [@palharesdev](https://x.com/palharesdev)<br>  
+Youtube: [@PalharesDev](https://www.youtube.com/@PalharesDev)<br>  
 LinkedIn: [Gabriel Palhares](https://www.linkedin.com/in/gabriel-pizzani-palhares/)<br>  
 <!-- Instagram: [@palharesdev](https://www.instagram.com/palharesdev/)<br>     -->

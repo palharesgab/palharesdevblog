@@ -2,31 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://palharesdev.vercel.app/categories/algoritmos/</loc>
-    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <loc>https://palhares.dev/categories/algoritmos/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev.vercel.app/authors/</loc>
-    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <loc>https://palhares.dev/authors/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev.vercel.app/categories/</loc>
-    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <loc>https://palhares.dev/categories/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev.vercel.app/teoria-dos-grafos-e-linkedin/</loc>
-    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <loc>https://palhares.dev/teoria-dos-grafos-e-linkedin/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev.vercel.app/authors/palharesdev/</loc>
-    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <loc>https://palhares.dev/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev.vercel.app/</loc>
-    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <loc>https://palhares.dev/authors/palharesdev/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev.vercel.app/o-que-e-devx/</loc>
+    <loc>https://palhares.dev/o-que-e-devx/</loc>
     <lastmod>2025-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev.vercel.app/categories/devops/</loc>
+    <loc>https://palhares.dev/categories/devops/</loc>
     <lastmod>2025-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://palharesdev.vercel.app/categories/engenharia-de-software/</loc>
+    <loc>https://palhares.dev/categories/engenharia-de-software/</loc>
     <lastmod>2025-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://palhares.dev/docker/</loc>
+    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url>
 </urlset>
