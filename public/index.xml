@@ -22,12 +22,5 @@
       <guid>https://palhares.dev/o-que-e-devx/</guid>
       <description>&lt;p&gt;Hoje em dia, dentro do contexto da engenharia de software, é muito falado sobre a cultura DevOps, cultura essa de colaboração da parte de desenvolvimento com a parte de operações e uma série de práticas adotadas a partir dessa colaboração para a entrega e desenvolvimento contínuo. Mas e DevX? Você já ouviu falar? E do que se trata?&lt;/p&gt;&#xA;&lt;p&gt;DevX trata-se de um termo que se refere a &amp;ldquo;Developer experience&amp;rdquo;, ou em uma tradução direta (e óbvia rs) experiencia do desenvolvedor. Essa experiencia, pode ser comumente relacionada a UX (User experience), mas com um escopo limitado, para a área de engenharia de software, o que não é bem verdade, vejamos a seguir melhor ao que se refere essa tal experiencia do desenvolvedor segundo a literatura.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Docker para leigos</title>
-      <link>https://palhares.dev/docker/</link>
-      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://palhares.dev/docker/</guid>
-      <description>&lt;h3 id=&#34;o-que-é-um-contêiner&#34;&gt;O que é um Contêiner?&lt;/h3&gt;&#xA;&lt;p&gt;Pense em um contêiner como uma caixinha mágica e padronizada onde você pode colocar um programa (uma aplicação) e tudo o que ele precisa para funcionar, como bibliotecas, dependências, arquivos de configuração e até mesmo uma versão mínima do sistema operacional.&lt;/p&gt;&#xA;&lt;p&gt;A grande sacada é que essa caixinha é isolada do resto do seu computador. Isso significa que, não importa onde você execute esse contêiner (no seu laptop, no servidor da empresa, na nuvem), a aplicação dentro dele sempre vai se comportar da mesma forma.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

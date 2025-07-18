@@ -1,8 +1,8 @@
 +++
 title = 'Docker para leigos'
-date = 2023-11-22T16:55:24+01:00
+date = 2025-07-22T16:55:24+01:00
 draft = true
-description = "Se você está começando ou se aprofundando como desenvolvedor e ouve falar de Docker e contêineres, é normal que pareça algo complexo à primeira vista. Mas não se preocupe! Vou te explicar de forma simples o que você precisa saber como iniciante."
+description = "Se você está começando ou se aprofundando como desenvolvedor e ouve falar de Docker e contêineres, é normal que pareça algo complexo à primeira vista. Mas não se preocupe, é bem mais tranquilo do que parece!"
 image = "/images/docker1.webp"
 imageBig = "/images/docker1.webp"
 categories = ["devops"]
